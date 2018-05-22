@@ -331,6 +331,38 @@ h3 {
   color: rgb(0, 0, 238) !important;
 }
 
+.ui-g {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.home .features img {
+  width: 57px;
+}
+
+.home .features .ui-g > div {
+  padding: .5em 2em;
+}
+
+.home .features .feature-name {
+  display: block;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.home .features .ui-g p {
+  color: #535d62;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.home p {
+  line-height: 1.5;
+}
+
 /*END-LAYOUT-CONTENT*/
 /*MEDIA*/
 @media screen and (max-width: 768px) {

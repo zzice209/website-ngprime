@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import construct = Reflect.construct;
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +11,8 @@ export class AppComponent implements OnInit {
   title = 'app';
 
   ngOnInit() {
+
   }
+
+
 }

@@ -1,0 +1,363 @@
+#page {
+  height: 1000px;
+}
+
+.landing-page-new .navigation-brand .brand-logo .logo {
+  background: url(../../assets/images/logobeeketing.png) 0 0 no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.brand-logo > a > img {
+  width: 230px;
+  height: 80px;
+}
+
+.first {
+  border-bottom: 2px solid;
+}
+
+.tracking-target {
+  top: 18px !important;
+  background-color: #0088ff;
+  color: white;
+  padding: 15px 10px;
+  margin-left: 12px;
+  text-align: center;
+  /* border: 2px solid #fff; */
+  border-radius: 9px;
+  width: 200px;
+  font-size: 17px;
+  position: absolute;
+}
+
+.get-started {
+  color: white !important;
+}
+
+li > a > span {
+  /*color: black;*/
+}
+
+.border-box {
+  background-color: #0088ff;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 17px;
+  position: absolute;
+}
+
+.border1-box {
+  background-color: #fb1ca4;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 21px;
+  position: absolute;
+  left: 45%;
+  margin-top: 100px;
+}
+
+.border2-box {
+  background-color: #12ca64;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 17px;
+}
+
+.border2-box > span {
+  font-size: 21px;
+}
+
+.title {
+  margin-top: 90px;
+  font-family: Myriad Pro;
+  color: white;
+}
+
+.title > p {
+  color: white;
+  font-family: "Myriad Pro";
+}
+
+.nav > li > a.tracking-target:hover {
+  background-color: red !important;
+}
+
+.navbar-nav {
+  float: right;
+  display: inline-block;
+  list-style: none;
+}
+
+.navbar-nav > li {
+  float: left;
+  /*display: table-cell;*/
+  vertical-align: middle;
+}
+
+.navbar-nav > li > a {
+  font-size: 20px;
+  top: 20px;
+}
+
+.slider {
+  background-image: url('../../assets/images/layout_color.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+}
+
+.customers-content > p {
+  font-weight: 400 !important;
+}
+
+.customers-slider {
+  padding-top: 40px;
+  height: 225px;
+}
+
+.bx-wrapper {
+  color: #f8f8fc;
+  height: 226px;
+}
+
+.bx-wrapper > .bx-viewport > ul > li {
+  float: left;
+  padding-right: 20px;
+}
+
+.bx-viewport > ul {
+  list-style: none;
+}
+
+.bx-prev {
+  background: url('../../assets/images/icon_arow_left.svg') 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-top: 20px;
+  top: 57px;
+  left: 20px;
+  position: absolute;
+}
+
+.bx-next {
+  background: url('../../assets/images/icon_arow_right.svg') 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-top: 20px;
+  top: 57px;
+  position: absolute;
+}
+
+.show-how-work {
+  height: 848px;
+  background-color: #ececec;
+  font-family: "Myriad Pro";
+}
+
+.text-center > p > a > i {
+  padding-left: 20px;
+  font-size: 28px;
+}
+
+.play-video {
+  font-size: 18px;
+  color: #0088ff;
+  font-weight: 400;
+}
+
+.analyze {
+  height: 703px;
+  font-family: "Myriad Pro";
+  padding-top: 80px;
+}
+
+.ready {
+  font-family: "Myriad Pro";
+}
+
+.smarter-marketing {
+  height: 840px;
+  background-color: #ececec;
+  font-family: "Myriad Pro";
+}
+
+.e-commerce {
+  height: 360px;
+  background-color: #ececec;
+  font-family: "Myriad Pro";
+}
+
+.track-customer {
+  padding-top: 180px;
+  padding-left: 110px;
+}
+
+.track-customer2 {
+  padding-top: 180px;
+}
+
+.track-customer > p {
+  font-family: "Myriad Pro";
+  color: #404c51;
+}
+
+.track-customer2 > p {
+  font-family: "Myriad Pro";
+  color: #404c51;
+}
+
+.ipad {
+  background: url('../../assets/images/Ipad.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+  height: 620px;
+}
+
+.iphone {
+  background: url('../../assets/images/Iphone.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+  height: 620px;
+}
+
+.book {
+  background: url('../../assets/images/macbook_book.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+  height: 470px;
+}
+
+.block {
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.beeketing {
+  background: url('../../assets/images/platform1.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.shopify {
+  background: url('../../assets/images/platform8.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.seoshop {
+  background: url('../../assets/images/platform7.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.weebly {
+  background: url('../../assets/images/platform6.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.tictail {
+  background: url('../../assets/images/platform5.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.bigcommerce {
+  background: url('../../assets/images/platform4.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.woocommerce {
+  background: url('../../assets/images/platform3.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.magento {
+  background: url('../../assets/images/platform2.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.image {
+  height: 80px;
+  width: 150px;
+}
+
+.nav-footer {
+  margin-top: 300px;
+  margin-bottom: 30px;
+}
+
+.active {
+  color: #0088ff;
+}
+
+.ul-footer > li > a:hover {
+  color: #0088ff;
+}
+
+.ul-footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #071130;
+  border-radius: 25px;
+}
+
+.ul-footer > li {
+  display: inline;
+  float: left;
+  width: 25%;
+}
+
+.ul-footer > li > a {
+  display: block;
+  padding: 8px;
+  font-size: 20px;
+  /*background-color: #dddddd;*/
+}
+
+.footer {
+  background-image: url('../../assets/images/footer2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+}
+
+/*.footer > p {*/
+/*color: white;*/
+/*font-family: "Myriad Pro";*/
+/*}*/
+
+.white {
+  color: white;
+  padding-top: 100px;
+}
+
+.view-more {
+  padding: 10px;
+  background-color: #12ca64;
+  color: white;
+  border-radius: 11px;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.menu-active {
+  float: left;
+  color: white;
+}
+
+/*/*/
+/*.bx-wrapper .bx-controls-direction a {*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*margin-top: -16px;*/
+/*outline: 0;*/
+/*text-indent: -9999px;*/
+/*width: 20px;*/
+/*height: 41px;*/
+/*opacity: 1;*/
+/*}*/

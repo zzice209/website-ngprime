@@ -1,41 +1,165 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  overflow: hidden;
-  border: 1px solid #555;
+#topbar {
+  background-color: #363c3f;
+  line-height: 60px;
 }
 
-li {
-  text-align: center;
+#topbar-left {
+  color: red;
+  font-size: 15px;
+}
+
+#topbar-left ul > li {
+  margin-right: 15px;
+}
+
+#topbar-left ul > li > i {
+  padding-right: 5px;
+}
+
+#topbar-right {
+  color: red;
+  font-size: 21px;
+  float: right;
+}
+
+#topbar-right > ul > li {
+  margin-right: 25px;
+}
+
+.site-menu {
+  line-height: 40px;
+}
+
+ul.menu > li > a {
+  font-family: 'Montserrat', sans-serif;
   display: block;
   float: left;
-  border-right: 1px solid #bbb;
-}
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  padding: 14px 16px;
+  position: relative;
+  padding: 9px 19px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #222;
+  text-transform: uppercase;
 }
 
-li a:hover {
-  background-color: #555;
+ul.menu > li.active > a {
+  color: red;
+}
+
+.extra-menu-item > a {
+  float: right;
   color: white;
 }
 
-li a.active {
-  background-color: #4CAF50;
-  color: white !important;
+/*a {*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
+#header-main {
+  /*background-color: #4cae4c;*/
+  /*line-height: 250px;*/
+  padding: 26px 0;
 }
 
-li a:hover:not(.active) {
-  background-color: #555;
+#logo1 {
+  height: auto;
+  max-width: 270px;
+}
+
+ul > li {
+  float: left;
+}
+
+.red {
+  color: red;
+  font-weight: 600;
+}
+
+.welcome-section h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.service-item {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.special-services {
+  width: 100vw;
+  height: 500px;
+  background-color: #0c1239;
+}
+
+.special-title {
+  padding-top: 90px;
+}
+
+.title {
   color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+}
+
+.warrenty {
+  display: table-cell;
+  border: 1px solid;
+  padding: 25px 20px;
+}
+
+.wholesale {
+  display: table-cell;
+  border: 1px solid;
+  padding: 25px 20px;
+  height: 205px;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+.quote {
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  border-left: 2px solid red;
+}
+
+.services {
+  padding-top: 50px;
+  color: white;
+  display: table;
+}
+
+.plane {
+  font-size: 90px;
+  color: red;
+}
+
+.homepage {
+  color: red;
+}
+
+.menu {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
 }

@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-homepage',
@@ -22,7 +23,7 @@ export class HomepageComponent implements OnInit {
     this.isActiveMenuButton = !this.isActiveMenuButton;
   }
 
-  constructor() {
+  constructor(private router: Router) {
     this.isActiveInput = false;
     this.isActiveMenuButton = false;
     this.isActiveButton = false;
@@ -30,5 +31,7 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  toLogin() {
+    this.router.navigate(['/home/login']);
+  }
 }

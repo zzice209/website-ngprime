@@ -8,13 +8,17 @@ import {HomepageComponent} from './homepage/homepage.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {LoginComponent} from './login/login.component';
 import {AdminComponent} from './admin/admin.component';
-import {AppRoutingModule} from './app-routing.module';
 import {UserService} from './user.service';
 import {AuthguardGuard} from './authguard.guard';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {SidebarModule} from 'primeng/sidebar';
-
+import {HomepageModule} from './homepage/homepage.module';
+import {routing} from './app.routing';
+import {HomeComponent} from './home/home.component';
+import {AppService} from './app.service';
+import {HttpClientModule} from '@angular/common/http';
+import { BeeketingComponent } from './beeketing/beeketing.component';
 
 @NgModule({
   declarations: [
@@ -23,16 +27,20 @@ import {SidebarModule} from 'primeng/sidebar';
     HomepageComponent,
     SidebarComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    HomeComponent,
+    BeeketingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    routing,
     FormsModule,
     HttpModule,
-    SidebarModule
+    HttpClientModule,
+    SidebarModule,
+    HomepageModule,
   ],
-  providers: [UserService, AuthguardGuard],
+  providers: [UserService, AuthguardGuard, AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
